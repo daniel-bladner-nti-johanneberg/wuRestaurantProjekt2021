@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+
+
+
+.gridwrapper {
+    display: grid;
+    grid-template-areas: 
+    'hea hea'
+    'nav nav'
+    'sec sec'
+    'foo foo'
+    ;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    height: 100vh;
+}
+
+
+.logo {
+    grid-area: hea;
+    background-color: grey;
+}
+
+.navigator {
+    grid-area: nav;
+    background-color: green;
+}
+
+.articleframe {
+    grid-area: sec;
+    background-color: brown;
+}
+
+
+.footer1 {
+    grid-area: foo;
+    background-color: indianred;
+}
