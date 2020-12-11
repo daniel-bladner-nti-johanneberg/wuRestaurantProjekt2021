@@ -1,3 +1,5 @@
+/* CSS FÖR FÖR FRAME OCH FÖRTA SIDAN*/
+
 body{
     margin: 0;
     background-color: rgb(47, 60, 70);
@@ -90,11 +92,7 @@ body{
     margin-right: auto;
     margin-top: 6vh;
     margin-bottom: 1vh;
-    
-    
-    
-    
-    
+
 }
 
 .pic-txt {
@@ -113,11 +111,12 @@ body{
 
 .facts {
     background-color: rgb(0, 75, 124);
-    color: white;
+    color: rgba(255, 255, 255, 0.836);
     border: 4px solid rgba(1, 61, 100, 0.438) ;
-    font-size: 18px;
+    font-size: 17px;
     padding: 15px;
-    margin: 10px;
+    margin-top: 2vh;
+    
 
 }
 
@@ -129,10 +128,48 @@ body{
     justify-content: space-around;
     letter-spacing: 5px; 
     font-family: 'Oswald', sans-serif;
-    color: white;
+    color: rgba(255, 255, 255, 0.836);
    
 }
 
 
+/* CSS FÖR MENYSIDAN*/
+.meny{
+    background-color: rgb(0, 75, 124);
+    color: rgba(255, 255, 255, 0.836);
+    border: 4px solid rgba(1, 61, 100, 0.438) ;
+    font-size: 17px;
+    padding: 15px;
+    margin-top: 2vh;
+    margin-bottom: 10vh;
+    
+}
 
+.mat{
+    color: rgba(255, 255, 255, 0.836);
+    font-family: 'Oswald', sans-serif;
+    font-size: 13px;
+    letter-spacing: 1px;
+
+}
+
+
+.menytitel{
+    color: rgba(255, 255, 255, 0.836);
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.matbild{
+   
+    grid-area: pic;
+    background-color: rgb(0, 75, 124);
+    border: 4px solid rgba(1, 61, 100, 0.438) ;
+    margin: 10px;
+    margin-bottom: 53px;
+    color: white;
+    
+}
 
